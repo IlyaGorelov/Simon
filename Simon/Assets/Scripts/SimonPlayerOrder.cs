@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using YG;
 
 public class SimonPlayerOrder : MonoBehaviour
 {
@@ -21,6 +22,9 @@ public class SimonPlayerOrder : MonoBehaviour
             playerOrder.Clear();
         }
         if (GameManager.maxScore < GameManager.score)
+        {
+            YandexGame.NewLeaderboardScores("Leaderboard", GameManager.maxScore);
             GameManager.maxScore = GameManager.score;
+        }
     }
 }

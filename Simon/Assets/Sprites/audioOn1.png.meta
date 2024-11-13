@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 8737c44138bc18b469555bc2d7322d76
+guid: 8a26b88240f97fa439715d3acdc9701d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5348329947048962803
-    second: playButton_0
+      213: -821105587028274294
+    second: audioOn1_0
+  - first:
+      213: -7485299876178399408
+    second: audioOn1_1
+  - first:
+      213: -7669488750744068091
+    second: audioOn1_2
+  - first:
+      213: 7779673477096199439
+    second: audioOn1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -139,13 +148,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: playButton_0
+      name: audioOn1_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 18
-        width: 352
-        height: 309
+        x: 0
+        y: 0
+        width: 393
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +163,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d051094ff3ae6c5b0800000000000000
-      internalID: -5348329947048962803
+      spriteID: a83571aa1d8da94f0800000000000000
+      internalID: -821105587028274294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioOn1_1
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 232
+        width: 133
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f6c13eb6fde1890800000000000000
+      internalID: -7485299876178399408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioOn1_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 126
+        width: 174
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500ab0bad90809590800000000000000
+      internalID: -7669488750744068091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: audioOn1_3
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 48
+        width: 205
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05d8d61fc3f6fb60800000000000000
+      internalID: 7779673477096199439
       vertices: []
       indices: 
       edges: []
@@ -164,7 +239,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +249,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      playButton_0: -5348329947048962803
+      audioOn1_0: -821105587028274294
+      audioOn1_1: -7485299876178399408
+      audioOn1_2: -7669488750744068091
+      audioOn1_3: 7779673477096199439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

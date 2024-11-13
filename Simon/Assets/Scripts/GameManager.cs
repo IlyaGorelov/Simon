@@ -43,12 +43,19 @@ public class GameManager : MonoBehaviour
             Lose.SetActive(false);
     }
 
+    public void MuteSound()
+    {
+        AudioListener.pause = !AudioListener.pause;
+    }
+
     public void Restart()
     {
         score = 0;
         YandexGame.FullscreenShow();
         Save();
+        SimonManager.canStart = false;
         simonManager.order.Clear();
+        simonManager.order.Add(Random.Range(1, 5));
         simonPlayerOrder.playerOrder.Clear();
         bStart.SetActive(true);
         isLose = false;

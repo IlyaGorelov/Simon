@@ -8,6 +8,7 @@ public class SimonManager : MonoBehaviour
     public List<int> order;
     [SerializeField] SimonButton[] simonButtons;
     public static bool canStart = false;
+    public static bool isBotTurn = true;
 
     private void Start()
     {
@@ -29,15 +30,16 @@ public class SimonManager : MonoBehaviour
         if (canStart)
         {
             canStart = false;
+            isBotTurn = true;
             StartCoroutine(HighLightButtons());
         }
     }
 
     IEnumerator HighLightButtons()
     {
+            yield return new WaitForSeconds(1f);
         for (int i = 0; i < order.Count; i++)
         {
-            yield return new WaitForSeconds(0.5f);
             switch (order[i])
             {
                 case 1:
@@ -55,6 +57,6 @@ public class SimonManager : MonoBehaviour
             }
             yield return new WaitForSeconds(0.5f);
         }
-        
+        isBotTurn = false;
     }
 }
